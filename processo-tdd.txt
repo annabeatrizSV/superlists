@@ -1,0 +1,20 @@
+PROCESSO DE DESENVOLVIMENTO ORIENTADO A TESTES (TDD)[cite: 1]
+
+O fluxo de desenvolvimento com TDD combina dois níveis de testes: Testes Funcionais (FT) e Testes de Unidade (Unit Tests).[cite: 1]
+
+1. CICLO EXTERNO (Teste Funcional - Visão do Usuário):[cite: 1]
+   - Escrever um Teste Funcional (FT) que descreve uma nova funcionalidade do ponto de vista do usuário final.[cite: 1]
+   - Rodar o Teste Funcional e verificar se ele falha (Red).[cite: 1]
+   - A falha do FT indica exatamente qual o próximo passo de desenvolvimento necessário.[cite: 1]
+
+2. CICLO INTERNO (Testes de Unidade / Ciclo de Código):[cite: 1]
+   - Para fazer o Teste Funcional passar, entra-se no ciclo interno de Testes de Unidade.[cite: 1]
+   - Escrever um Teste de Unidade minimalista focado em um componente específico (views, models, templates).[cite: 1]
+   - Executar o Teste de Unidade e confirmar a falha.[cite: 1]
+   - Escrever o código mínimo necessário para fazer o Teste de Unidade passar (Green).[cite: 1]
+   - Repetir esse ciclo interno até que todo o código necessário para a funcionalidade esteja implementado e testado.[cite: 1]
+
+3. REFATORAÇÃO E CONCLUSÃO:[cite: 1]
+   - Com todos os Testes de Unidade passando, avalia-se a necessidade de refatorar o código (melhorar estrutura, clareza e legibilidade sem alterar o comportamento).[cite: 1]
+   - Rodar novamente os Testes de Unidade após a refatoração para garantir que nada foi quebrado.[cite: 1]
+   - Rodar o Teste Funcional completo (FT). Quando o FT passar, a funcionalidade está concluída com sucesso.[cite: 1]
